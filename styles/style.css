@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar section start */
+.navbar-container{
+    max-width: 90rem;
+    margin: 0 auto;
+    background: linear-gradient(180.00deg,  rgb(17, 17, 17),rgb(34, 34, 34),rgb(17, 17, 17) 100%);
+}
+
+.navbar-content{
+    max-width: 71.25rem;
+    display: flex;
+    margin:0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.55rem 5rem 2rem 5rem;
+    /* border: 2px solid red; */
+}
+
+.navbar-div-1>h3{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+
+.navbar-div-2{
+    width: 29rem;
+}
+
+.navbar-div-2>ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: .25rem;
+    
+}
+.navbar-div-2>ul>li{
+    list-style-type: none;
+    margin: 0 1rem 0 0;
+}
+
+.navbar-div-2>ul>li>a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.colored-list-item{
+    border-radius: 46px;
+    padding: .5rem 1.2rem;
+    background: rgb(230, 83, 60);
+}
+
+.sidebar{
+    display: none;
+}
+.sidebar>div{
+    width: 2rem;
+    height: .2rem;
+    background-color: white;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+/* navbar section end */
+/* banner section start */
+.banner-container{
+    max-width: 71.25rem;
+    margin: 0 auto;
+}
+.banner-content{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5rem;
+    /* flex: 1; */
+}
+
+.banner-content-div{
+    width: 32.5rem;
+    height: 100%;
+    /* border: 2px solid red; */
+    /* height: 27.5rem; */
+}
+.banner-content-div>h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 4.875rem;
+    font-weight: 900;
+}
+
+.banner-content-div>h1>span{
+    font-family: Dancing Script
+    ;
+}
+
+.banner-content-div>p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    margin-top: 1.8rem;
+}
+
+.banner-content-div>div{
+    margin-top: 1.8rem;
+}
+
+.banner-btn-1{
+    width: 190px;
+    height: 54px;
+    padding: 8px 20px;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    background: rgb(230, 83, 60);
+    border: none;
+   
+}
+.banner-btn-2{
+    width: 190px;
+    height: 54px;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    border-radius: 42px;
+    padding: 8px 20px;
+    background-color: rgba(119, 119, 119, 0);
+    margin-left: 8px;
+    
+}
+
+.banner-img-div-container{
+    width: 536px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: right;
+    margin-top: 48px;
+}
+
+.banner-img-div{
+    width: 21.8rem;
+    /* border: 2px solid red; */
+    height: 36.20rem;
+    position: relative;
+}
+
+.banner-img-div>img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.tutorial-div{
+    width: 12.87rem;
+    height: 6rem;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    top: 26.3rem;
+    left: -7.05rem;
+    display: flex;
+    align-items: center;
+}
+
+.workout-div{
+    width: 12.05rem;
+    height: 6.12rem;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    top: 7.8rem;
+    left: 14.4rem;
+}
+
+.elips{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: rgb(230, 83, 60) ;
+    border: none;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+.tutorial-div-content{
+    margin-left: .5rem;
+}
+.tutorial-div-content>h3{
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 1.5rem;
+}
+.tutorial-div-content>p{
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+.workout-div{
+    padding: 1rem;
+}
+.workout-div>h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.workout-div>p{
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: .9rem;
+    margin-top: .2rem;
+
+}
+
+/* banner section end */
+
+/* resposive for mobile */
+@media screen and (max-width:576px) {
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+        /* flex: 1; */
+    }
+    .navbar-div-2{
+        display: none;
+    }
+    .sidebar{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .workout-div{
+        top: 47px;
+        left: 194px;
+        width: 170px;
+        height: 100px;
+    }
+    .tutorial-div{
+        top: 271px;
+        left: 12px;
+    }
+    .navbar-container{
+        width: 100%;
+        padding: .8rem;
+    }
+    .navbar-content{
+        padding: 3.55rem 0rem 2rem 0rem;
+    }
+    .banner-content{
+        padding: 0rem;
+    }
+    .banner-img-div-container{
+        width: 100%;
+        display: flex;
+        /* border: 2px solid red; */
+        justify-content: center;
+    }
+    .banner-content-div{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid red; */
+        /* height: 27.5rem; */
+    }
+    .banner-btn-1{
+        width: 160px;
+        height: 54px;
+        padding: 8px 20px;
+        margin: 0;
+    }
+    .banner-btn-2{
+        width: 170px;
+        height: 54px;
+        padding: 8px 20px;
+        margin-left: 8px;
+    }
+    .hidden{
+        display: none;
+    }
+     .banner-img-div{
+        width: 363px;
+        height: 598px;
+        /* border: 2px solid red; */
+        position: relative;
+    } 
+  
+}
