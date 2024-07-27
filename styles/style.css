@@ -6,6 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #000000;
+}
 /* navbar section start */
 .navbar-container{
     max-width: 90rem;
@@ -14,12 +17,12 @@
 }
 
 .navbar-content{
-    max-width: 71.25rem;
+    max-width: 72.25rem;
     display: flex;
     margin:0 auto;
     justify-content: space-between;
     align-items: center;
-    padding: 3.55rem 5rem 2rem 5rem;
+    padding: 3.55rem 3rem 2rem 3rem;
     /* border: 2px solid red; */
 }
 
@@ -76,16 +79,16 @@
 /* navbar section end */
 /* banner section start */
 .banner-container{
-    max-width: 71.25rem;
+    max-width: 72.25rem;
     margin: 0 auto;
 }
 .banner-content{
     display: flex;
     /* border: 2px solid red; */
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     justify-content: center;
-    padding: 0 5rem;
+    padding: 0 3rem;
     /* flex: 1; */
 }
 
@@ -236,8 +239,209 @@
 
 /* banner section end */
 
+
+
+
+
+
+/* BMI section start */
+.BMI-section-container{
+    max-width: 90rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(34, 34, 34);
+}
+.BMI-section-content{
+    max-width: 1060px;
+    display: flex;
+    gap: 175px;
+    border: 2px solid red;
+}
+.chart-container{
+    margin: 52px 0 0 0;
+}
+.chart-container>table{
+    border: 2px solid red;
+    border-collapse: collapse;
+    max-width: 310px;
+    height: 216px;
+    font-size: 14px;
+    margin-top: 52px;
+}
+.chart-container h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;  
+}
+
+.input-form{
+    margin-top: 34px;
+}
+.chart-container td{
+    padding: 13px 0 15px 18px;
+    border: 2px solid red;  
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 24px;
+}
+.chart-container th{
+    padding: 15px 0 15px 18px;
+    border: 2px solid red;  
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 24px;
+}
+
+.calculator-container{
+    max-width: 577px;
+    height: 386px;
+    margin: 52px 0;
+    border: 2px solid red;  
+}
+
+.calculator-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+}
+.calculator-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.input-form input,select{
+    width: 282.5px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 6px 0;
+}
+.input-form>.activity{
+    max-width: 577px;
+}
+
+.calculator-container-btn{
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    border: none;
+    margin: 34px 0px 0 0;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+}
+
+/* BMI section end */
+
+
+
+/* habit section start */
+.habit-section-container{
+    max-width: 1044px;
+    height: 452px;
+    margin: 0 auto;
+}
+.habit-section-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    text-align: center;
+}
+.habit-section-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.habit-section-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+    border: 2px solid red;
+}
+
+.habit-section-div h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 26px;
+}
+.habit-section-div>div>p{
+    margin-top: 6px;
+}
+.habit-section-div>div>div{
+    text-align: center;
+    height: auto;
+}
+.habit-section-div img{
+    width: 188px;
+    height: auto;
+    border: 3px solid rgb(34, 34, 34);
+    border-radius: 50%;
+}
+
+/* habit section end */
+
+/* Run section start */
+.run-section-container{
+    width: 1060px;
+    height: 371px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    border: 2px solid red;
+    display: flex;
+
+}
+.run-content-section h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+}
+.run-content-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+}
+.run-content-section button{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+/* Run section end */
+
+
+
+
+
+
+
 /* resposive for mobile */
 @media screen and (max-width:576px) {
+    /* header section start */
     .banner-content{
         display: flex;
         flex-direction: column;
@@ -306,5 +510,57 @@
         /* border: 2px solid red; */
         position: relative;
     } 
+
+    /* header section end */
+
+
+
+
+    /* BMI section start */
+    .BMI-section-container{
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(34, 34, 34);
+    }
+    .BMI-section-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid red;
+        margin-left: 20px;
+    }
+
+    .calculator-container{
+        max-width: 577px;
+        height: 386px;
+        margin: -30px 0 0 0;
+        border: 2px solid red;  
+    }
+    .chart-container{
+        margin: 0 0 0 0;
+    }
+    /* BMI section end */
   
+
+
+    /* habit section start */
+    .habit-section-container{
+        max-width: 1044px;
+        height: auto;
+        margin: 0 auto;
+    }
+    .habit-section-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 58px;
+        border: 2px solid red;
+    }
+    /* habit section end */
 }
