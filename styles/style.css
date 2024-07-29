@@ -454,6 +454,71 @@ body{
 
 /* Run section end */
 
+/* Training section start */
+.training-section-container{
+    max-width: 1060px;
+    height: 581px;
+    margin: 0 auto;
+}
+.training-section-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    text-align: left;
+    margin-top: 100px;
+}
+.training-section-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 14px;
+}
+.image-gallary{
+    max-width: 1060px;
+    height: 380px;
+    margin-top: 58px;
+}
+.image-gallary>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-gallary img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-gallary-1{
+    height: 190px;
+    width: 25%;
+    background:  rgba(6, 255, 210, 0.5);;
+}
+.image-gallary-2{
+    height: 190px;
+    width: 45%;
+    background: rgba(255, 0, 0, 0.3);
+}
+.image-gallary-3{
+    height: 190px;
+    width: 30%;
+}
+.image-gallary-4{
+    height: 190px;
+    width: 40%;
+}
+.image-gallary-5{
+    height: 190px;
+    width: 25%;
+}
+.image-gallary-6{
+    height: 190px;
+    width: 35%;
+}
+/* Training section end */
+
+
+
 
 /* Meet section start */
 .meet-section-container{
