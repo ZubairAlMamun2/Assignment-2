@@ -240,7 +240,25 @@ body{
 /* banner section end */
 
 
-
+/* BMI heading section start */
+.bmi-heading-container{
+    max-width: 691px;
+    height: 120px;
+    margin: 78px auto 88px auto; 
+    padding: 0 20px 0 20px; 
+}
+.bmi-heading-container h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+}
+.bmi-heading-container p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    margin-top: 14px;
+}
+/* BMI heading section end */
 
 
 
@@ -263,9 +281,9 @@ body{
     margin: 52px 0 0 0;
 }
 .chart-container>table{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-collapse: collapse;
-    max-width: 310px;
+    max-width: 315px;
     height: 216px;
     font-size: 14px;
     margin-top: 52px;
@@ -280,8 +298,8 @@ body{
     margin-top: 34px;
 }
 .chart-container td{
-    padding: 13px 0 15px 18px;
-    border: 2px solid red;  
+    padding: 13px 10px 15px 15px;
+    border: 3px solid rgba(255, 255, 255, 0.1);  
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
     font-size: 14px;
@@ -289,8 +307,8 @@ body{
     padding-left: 24px;
 }
 .chart-container th{
-    padding: 15px 0 15px 18px;
-    border: 2px solid red;  
+    padding: 15px 10px 15px 15px;
+    border: 3px solid rgba(255, 255, 255, 0.1);  
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 16px;
@@ -302,7 +320,7 @@ body{
     max-width: 577px;
     height: 386px;
     margin: 52px 0;
-    border: 2px solid red;  
+    /* border: 2px solid red;   */
 }
 
 .calculator-container h1{
@@ -355,6 +373,7 @@ body{
     max-width: 1044px;
     height: 452px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .habit-section-container h1{
     color: rgb(255, 255, 255);
@@ -375,7 +394,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 54px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .habit-section-div h3{
@@ -406,9 +425,9 @@ body{
     max-width: 1060px;
     height: 371px;
     margin: 0 auto;
+    margin-top: 100px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    /* border: 2px solid red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -459,6 +478,7 @@ body{
     max-width: 1060px;
     height: 581px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 .training-section-container h1{
     color: rgb(255, 255, 255);
@@ -488,32 +508,37 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 50%;
 }
 .image-gallary-1{
     height: 190px;
     width: 25%;
-    background:  rgba(6, 255, 210, 0.5);;
+    background:  rgba(6, 255, 210, 0.5);
 }
 .image-gallary-2{
     height: 190px;
     width: 45%;
-    background: rgba(255, 0, 0, 0.3);
+    background:  rgba(255, 0, 0, 0.3);
 }
 .image-gallary-3{
     height: 190px;
     width: 30%;
+    background:  rgba(0, 0, 0, 0.5);
 }
 .image-gallary-4{
     height: 190px;
     width: 40%;
+    background:  rgba(0, 0, 0, 0.5);
 }
 .image-gallary-5{
     height: 190px;
     width: 25%;
+    background:  rgba(66, 255, 0, 0.3);
 }
 .image-gallary-6{
     height: 190px;
     width: 35%;
+    background:  rgba(0, 71, 255, 0.3);
 }
 /* Training section end */
 
@@ -586,6 +611,7 @@ body{
     height: 489px;
     background: rgba(255, 255, 255, 0.1);
     margin: 0 auto;
+    margin-top: 88px;
 }
 .footer-content{
     max-width: 1065px;
@@ -666,6 +692,11 @@ body{
 /* resposive for mobile */
 @media screen and (max-width:576px) {
     /* header section start */
+    .navbar-container{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
     .banner-content{
         display: flex;
         flex-direction: column;
@@ -743,14 +774,13 @@ body{
     /* BMI section start */
     .BMI-section-container{
         max-width: 100%;
+        height: auto;
         margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         background: rgb(34, 34, 34);
     }
     .BMI-section-content{
         width: 100%;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -845,6 +875,45 @@ body{
         position: relative;
     }
     /* meet section end */
+
+    /* Training section start */
+    .training-section-container{
+        max-width: 576px;
+        height: auto;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .image-gallary-1{
+        height: 190px;
+        width: 55%;
+        background:  rgba(6, 255, 210, 0.5);
+    }
+    .image-gallary-2{
+        height: 190px;
+        width: 45%;
+        background:  rgba(255, 0, 0, 0.3);
+    }
+    .image-gallary-3{
+        visibility: hidden;
+        width: 0%;
+    }
+    .image-gallary-4{
+        height: 190px;
+        width: 45%;
+        background:  rgba(0, 0, 0, 0.5);
+    }
+    .image-gallary-5{
+        height: 190px;
+        width: 55%;
+        background:  rgba(66, 255, 0, 0.3);
+    }
+    .image-gallary-6{
+        visibility: hidden;
+        width: 0%;
+    }
+    /* Training section end */
+
 
     /* footer section start */
     .footer-container{
