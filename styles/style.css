@@ -469,7 +469,8 @@ body{
     height: 100%;
     width: 100%;
     border: none;
-    object-fit: cover;
+    object-fit:none;
+    object-position: 66% 33%;
 }
 
 /* Run section end */
@@ -696,7 +697,9 @@ body{
     .navbar-container{
         width: 100%;
         height: auto;
-        padding: 20px;
+    }
+    .navbar-container h1{
+        font-size: 48px;
     }
     .banner-content{
         display: flex;
@@ -704,7 +707,12 @@ body{
         /* border: 2px solid red; */
         justify-content: center;
         align-items: center;
-        /* flex: 1; */
+    }
+    .banner-container{
+        padding: 20px;
+        padding-bottom: 0px;
+        width: 100%;
+        height: auto;
     }
     .navbar-div-2{
         display: none;
@@ -715,20 +723,33 @@ body{
     }
     .workout-div{
         top: 47px;
-        left: 194px;
-        width: 170px;
-        height: 100px;
+        left: 60%;
+        width: 129px;
+        height: 74.09px;
+        padding: 15px;
+    }
+    .workout-div p{
+        font-size: 9.83px;
+    }
+    .workout-div h2{
+        font-size: 30.24px;
     }
     .tutorial-div{
+        width: 155.74px;
+        height: 72.58px;
         top: 271px;
         left: 12px;
+        padding: -15px;
+    }
+    .tutorial-div p{
+        font-size: 9.83px;
     }
     .navbar-container{
         width: 100%;
-        padding: .8rem;
+        /* padding: 20px; */
     }
     .navbar-content{
-        padding: 3.55rem 0rem 2rem 0rem;
+        padding: 20px;
     }
     .banner-content{
         padding: 0rem;
@@ -746,16 +767,17 @@ body{
         /* height: 27.5rem; */
     }
     .banner-btn-1{
-        width: 160px;
+        width: 46%;
         height: 54px;
-        padding: 8px 20px;
+        padding: 8px 10px;
         margin: 0;
+        margin-right: 10px;
     }
     .banner-btn-2{
-        width: 170px;
+        width:49%;
         height: 54px;
-        padding: 8px 20px;
-        margin-left: 8px;
+        padding: 8px 10px;
+        margin-left: 0px;
     }
     .hidden{
         display: none;
@@ -807,6 +829,7 @@ body{
         max-width: 1044px;
         height: auto;
         margin: 0 auto;
+        padding: 20px;
     }
     .habit-section-div{
         display: flex;
@@ -815,16 +838,15 @@ body{
         flex-direction: column;
         gap: 30px;
         margin-top: 58px;
-        border: 2px solid red;
     }
     /* habit section end */
 
 
     /* Run section start */
     .run-section-container{
-        max-width: 1060px;
-        height: 100%;
-        margin: 0 auto;
+        max-width: 576px;
+        height: auto;
+        margin:66px 20px 0 20px ;
         border-radius: 18px;
         background: rgb(34, 34, 34);
         /* border: 2px solid red; */
@@ -832,35 +854,44 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        padding: 35px 33px;
+        
     }
     .running-image{
-        width: 366px;
+        width: 90%;
         height: auto;
         padding:0;
         margin: 30px 0 0 0;
 
     }
     .run-content-section{
-        max-width: 366px;
+        width: 90%;
         padding:0;
         margin: 0;
     }
     .run-content-section button{
+        width: 90%;
+    }
+    .running-image img{
+        border-radius: 18px;
+        height: 100%;
         width: 100%;
+        border: none;
+        object-fit:cover;
+        margin-bottom: 10px;
     }
     /* Run section end */
 
     /* meet section start */
     .meet-section-container{
-        width: 100%;
+        max-width: 576px;
         height: auto;
         margin: 66px auto 0 auto;
-        padding: 20px;
+        /* padding: 20px; */
     }
     .meet-section-div{
-        width: 100%;
+        width: 90%;
         height: auto;
+        margin: 0 auto;
         margin-top: 58px;
         display: flex;
         flex-direction: column;
@@ -868,10 +899,10 @@ body{
         gap: 20px;
         border-radius: 18px;
         background: rgba(255, 255, 255, 0.1);
-        padding: 20px;
+        /* padding: 20px; */
     }
     .meet-section-div>div{
-        width: 326.67px;
+        width: 100%;
         height: 272px;
         position: relative;
     }
@@ -922,6 +953,7 @@ body{
         height: auto;
         margin: 0 auto;
         padding: 45px 20px 55px 20px;
+        margin-top: 66px;
     }
     .footer-content{
         width: 100%;
@@ -932,4 +964,24 @@ body{
     
     }
     /* footer section end */
+}
+
+
+
+
+
+
+/* resposive for tab */
+@media screen and (max-width:992px){
+    .navbar-container{
+        width: 100%;
+        height: auto;
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        justify-content: center;
+        align-items: center;
+    }
 }
