@@ -9,6 +9,9 @@
 body{
     background-color: #000000;
 }
+button{
+    cursor: pointer;
+}
 /* navbar section start */
 .navbar-container{
     max-width: 90rem;
@@ -93,7 +96,7 @@ body{
 }
 
 .banner-content-div{
-    width: 32.5rem;
+    max-width: 32.5rem;
     height: 100%;
     /* border: 2px solid red; */
     /* height: 27.5rem; */
@@ -186,7 +189,7 @@ body{
 }
 
 .workout-div{
-    width: 12.05rem;
+    width: 11.5rem;
     height: 6.12rem;
     position: relative;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -194,7 +197,7 @@ body{
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     top: 7.8rem;
-    left: 14.4rem;
+    right: -60%;
 }
 
 .elips{
@@ -343,7 +346,7 @@ option{
 }
 
 .input-form input,select{
-    width: 282.5px;
+    width: 49%;
     height: 48px;
     padding: 12px 40px 12px 20px;
     color: rgba(255, 255, 255, 0.6);
@@ -355,7 +358,7 @@ option{
     margin: 6px 0;
 }
 .input-form>.activity{
-    max-width: 577px;
+    width: 99%;
 }
 
 .calculator-container-btn{
@@ -731,7 +734,7 @@ option{
     .workout-div{
         top: 47px;
         left: 60%;
-        width: 129px;
+        width: 130px;
         height: 74.09px;
         padding: 15px;
     }
@@ -742,11 +745,11 @@ option{
         font-size: 30.24px;
     }
     .tutorial-div{
-        width: 155.74px;
+        width: 150px;
         height: 72.58px;
         top: 271px;
         left: 12px;
-        padding: -15px;
+        padding: -10px;
     }
     .tutorial-div p{
         font-size: 9.83px;
