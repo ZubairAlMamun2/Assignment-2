@@ -345,6 +345,7 @@ option{
     
 }
 
+
 .input-form input,select{
     width: 49%;
     height: 48px;
@@ -360,6 +361,9 @@ option{
 .input-form>.activity{
     width: 99%;
 }
+.input-form input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
 
 .calculator-container-btn{
     width: 224px;
@@ -373,6 +377,8 @@ option{
     font-family: Inter;
     font-size: 18px;
 }
+
+
 
 /* BMI section end */
 
@@ -1101,7 +1107,7 @@ option{
 
 
 /* resposive for tab */
-@media screen and (max-width:992px){
+@media screen and (max-width:992px) and (min-width:576px){
     .navbar-container{
         width: 100%;
         height: auto;
