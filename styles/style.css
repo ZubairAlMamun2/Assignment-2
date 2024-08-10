@@ -616,6 +616,77 @@ option{
 }
 /* Meet section end */
 
+/* Equipment section start */
+
+.web-dev-section{
+    max-width: 1440px;
+    margin: 0 auto;
+    background: rgb(34, 34, 34);
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-top: 35px;
+}
+.web-dev-section h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    text-align: center;
+    
+}
+.web-dev-section>div{
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+}
+.image-part{
+    width: 250px;
+    height: 200px;
+    margin-right: 25px;
+    /* border: 2px solid red; */
+}
+.image-part img{
+    border-radius: 18px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    object-fit:cover;
+    
+}
+.content-part{
+    margin-left: 25px;
+    width: 55%;
+}
+.content-part h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    text-align: left;
+}
+.content-part p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    margin-top: 14px;
+    text-align: left;
+}
+#content2{
+    width: 65%;
+    margin-right: 25px;
+}
+#img2{
+    margin-left: 25px; 
+}
+
+/* Equipment section end */
+
 
 /* footer section start */
 .footer-container{
@@ -959,6 +1030,50 @@ option{
         width: 0%;
     }
     /* Training section end */
+
+    /* equipment section start*/
+    .web-dev-section>div{
+        max-width: 1060px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 18px;
+        /* border: 2px solid red; */
+        margin-top: 30px;
+    }
+    .content-part{
+        margin-left: 0;
+        width: 100%;
+    }
+    #content2{
+        width: 100%;
+        margin-right:0;
+    }
+    #img2{
+        margin: 0 auto;
+    }
+    .image-part{
+        width: 100%;
+        height:250px;
+        margin: 35px;
+        text-align: center;
+        /* border: 2px solid red; */
+    }
+    .image-part img{
+        border-radius: 18px;
+        width: 100%;
+        height: 100%;
+        border: none;
+        object-fit:cover;
+        
+    }
+    /* equipment section end*/
+ 
 
 
     /* footer section start */
